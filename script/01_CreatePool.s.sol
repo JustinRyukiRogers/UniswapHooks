@@ -14,10 +14,10 @@ contract CreatePoolScript is Script {
     using CurrencyLibrary for Currency;
 
     //addresses with contracts deployed
-    address constant GOERLI_POOLMANAGER = address(0x3A9D48AB9751398BbFa63ad67599Bb04e4BdF98b); //pool manager deployed to GOERLI
-    address constant MUNI_ADDRESS = address(0xbD97BF168FA913607b996fab823F88610DCF7737); //mUNI deployed to GOERLI -- insert your own contract address here
-    address constant MUSDC_ADDRESS = address(0xa468864e673a807572598AB6208E49323484c6bF); //mUSDC deployed to GOERLI -- insert your own contract address here
-    address constant HOOK_ADDRESS = address(0x3CA2cD9f71104a6e1b67822454c725FcaeE35fF6); //address of the hook contract deployed to goerli -- you can use this hook address or deploy your own!
+    address constant GOERLI_POOLMANAGER = address(0xE5dF461803a59292c6c03978c17857479c40bc46); //pool manager deployed to GOERLI
+    address constant MUNI_ADDRESS = address(0x76B97C7Af48A715b3CE9Fc3F11e43903F90040d7); //mUNI deployed to GOERLI -- insert your own contract address here
+    address constant MUSDC_ADDRESS = address(0x6dA226CF30ff2482D5b015cC8EA889A6b4d37992); //mUSDC deployed to GOERLI -- insert your own contract address here
+    address constant HOOK_ADDRESS = address(0x1c02058071324404257118692F86FcfEe09Bbb55); //address of the hook contract deployed to goerli -- you can use this hook address or deploy your own!
 
     IPoolManager manager = IPoolManager(GOERLI_POOLMANAGER);
 

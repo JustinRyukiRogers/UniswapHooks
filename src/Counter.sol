@@ -22,7 +22,7 @@ contract Counter is BaseHook {
     // ---------------------------------------------------------------
 
     address public constant BURN_CONTRACT = address(0);
-    address public constant STBP_CONTRACT = 0x68B1D87F95878fE05B998F19b66F4baba5De1aed;
+    address public constant STBP_CONTRACT = address(0x8d3521ddf3E96D061b001841FD5D05C3545bD343);
 
 
     mapping(PoolId => uint256 count) public afterAddLiquidityCount;
